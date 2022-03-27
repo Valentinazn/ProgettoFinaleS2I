@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+li img {
+  height: 100%;
+  width: 100px;
+  object-fit: cover;
+}
+
+:root {
+  --clr-logo: #0d0c22;
+  --clr-text: #d0cfd4;
+  --clr-light: #f3f3f4;
+  --clr-secondary-1: #ea4c89;
+  --clr-secondary-2: #ffffff;
+
+  --fs-headline: 3.815rem;
+  --fs-title: 2.441rem;
+  --fs-subtitle: 1.953rem;
+  --fs-subtitle-small: 1.563rem;
+  --fs-text: 1rem;
+
+  --fs-headline-sm: 1.815rem;
+  --fs-title-sm: 1.441rem;
+  --fs-subtitle-sm: 0.953rem;
+
+  --fs-headline-extra-small: 0.815;
+  --fs-subtitle-extra-small: 0.563rem;
+
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+}
