@@ -10,13 +10,6 @@ import NotFound from './pages/NotFound/index';
 function App() {
 
 
-  const [ isOpen, setIsOpen] = useState(false)
-
-  const toggle = () => {
-
-    setIsOpen( !isOpen )
-
-  }
 
   return (
 
