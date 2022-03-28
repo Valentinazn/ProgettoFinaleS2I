@@ -11,6 +11,9 @@ I have chosen to create an e-commerce of images. The purpose of this project is 
 
 ## Screenshot
 
+
+
+
 ![Screenshot (35)]![Screenshot (68)](https://user-images.githubusercontent.com/85753606/160388686-c3583abf-f025-4034-9bb7-31935b3d296b.png)
 
 
