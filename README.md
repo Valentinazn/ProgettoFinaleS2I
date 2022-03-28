@@ -27,4 +27,4 @@ I have chosen to create an e-commerce of images. The purpose of this project is 
 
 
 
-### See my solution: https://progettofinales2i.netlify.app/
+### See my solution: https://progettofinalestart2impact.netlify.app/
