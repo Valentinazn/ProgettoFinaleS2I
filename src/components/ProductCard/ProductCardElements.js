@@ -57,24 +57,23 @@ transition: all 0.2s ease-in-out;
 
 export const IconPro2 = styled(AiOutlinePlusCircle)`
 
-visibility : ${ ({ isHover }) => ( isHover ? '' : 'hidden') };
 position: absolute;
 right: 15px;
 top: 15px;
 cursor: pointer;
-color: #F8D15E;
+color: var(--clr-secondary-3);
 font-size: 20px
 
 `
 
 export const IconPro = styled(BsFillCartDashFill)`
 
-visibility : ${ ({ isHover }) => ( isHover ? '' : 'hidden') };
+
 position: absolute;
 right: 15px;
 top: 15px;
 cursor: pointer;
-color: #F8D15E;
+color: var(--clr-secondary-3);
 font-size: 20px
 
 `

@@ -1,7 +1,7 @@
 import React from 'react'
 import dataApi from '../../data'
 import ProductCard from '../ProductCard'
-import { ProductsContainer, ProductsWrapper } from '../ProductCard/ProductCardElements'
+import {  ProductsWrapper } from '../ProductCard/ProductCardElements'
 
 export default function Home(){
   return (

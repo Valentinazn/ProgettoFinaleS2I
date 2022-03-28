@@ -22,7 +22,7 @@ function App() {
 
     <BrowserRouter>
 
-      <Navbar toggle={ toggle } />
+      <Navbar/>
        
       <Cart/> 
      

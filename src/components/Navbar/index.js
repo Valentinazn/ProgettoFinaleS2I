@@ -16,7 +16,7 @@ import {
 
 
 
-export default function Navbar( { toggle } ){
+export default function Navbar(){
 
     const { cartItem, showHideCart} = useContext(CartContext)
 

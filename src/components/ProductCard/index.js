@@ -16,20 +16,7 @@ export default function ProductCard({ product }) {
 
   const {cartItem, addToCart, removeItem} = useContext(CartContext)
 
-  const [isHover, setIsHover] = useState(false)
   
-
-  const addIcon = () =>{
-
-   setIsHover(true)
-
-  }
-
-  const removeIcon = () =>{
-
-    setIsHover(false)
-
-  }
 
 
   function cartIcon(){
@@ -38,11 +25,11 @@ export default function ProductCard({ product }) {
 
   if(iAlreadyInCart){
 
-    return <IconPro onClick={() => removeItem(product.id)} isHover={isHover}/>
+    return <IconPro onClick={() => removeItem(product.id)} />
 
   }else{
 
-    return <IconPro2 onClick={() => addToCart(product)}   isHover={isHover}/>
+    return <IconPro2 onClick={() => addToCart(product)}/>
 
   }
 
@@ -51,7 +38,7 @@ export default function ProductCard({ product }) {
 
   return (
 
-    <ProductsCard onMouseEnter={addIcon} onMouseLeave={removeIcon}>
+    <ProductsCard> 
             
       <ProductsImg  src={ product.url } />
       
