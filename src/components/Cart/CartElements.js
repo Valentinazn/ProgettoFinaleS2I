@@ -6,7 +6,7 @@ export const CartWrapper = styled.div`
 position: fixed;
 top: 70px;
 right: 20px;
-background-color: white;
+background-color: var(--clr-secondary-2);
 border-radius: 7px;
 width: 400px;
 padding: 20px;
