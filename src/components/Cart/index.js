@@ -70,7 +70,7 @@ return (
 
                 <div style={{marginLeft: 5}}>
 
-                    {formatCurrency(cartItem.reduce((amount, item) => item.price + amount, 0), opts)}
+                    {formatCurrency(cartItem.reduce((amount) => 5.99 + amount, 0), opts)}
                     
                 </div>
 
