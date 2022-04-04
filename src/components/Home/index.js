@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import ProductCard from '../ProductCard'
 import {  ProductsWrapper } from '../ProductCard/ProductCardElements'
