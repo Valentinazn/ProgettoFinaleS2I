@@ -1,15 +1,32 @@
 import React from 'react'
-import dataApi from '../../data'
+
 import ProductCard from '../ProductCard'
 import {  ProductsWrapper } from '../ProductCard/ProductCardElements'
 
 export default function Home(){
+
+  const [ fetchData, setFetchData] = useState([])
+
+  useEffect(() =>{
+    getData()
+  },[])
+
+  const getData = async () =>{
+
+    try{
+      const res = await axios.get("https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json")
+      setFetchData(res.data)
+    }catch(err){
+      alert(err.message)
+    }
+  }
+
   return (
     <>
 
  
         <ProductsWrapper>
-              { dataApi.map(( product ) =>( <ProductCard key={ product.id } product={ product } /> )) }
+              { fetchData.map(( product ) =>( <ProductCard key={ product.id } product={ product } /> )) }
         </ProductsWrapper>
     
 
