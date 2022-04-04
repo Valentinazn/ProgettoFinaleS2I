@@ -14,7 +14,7 @@ export default function CartItem({ item }){
     <CartItemItem>
         <img src={item.url} alt=''/>
         <div>
-            {formatCurrency(`${item.price}`, opts)}
+            {formatCurrency( 5.99, opts)}
         </div>
         <CartItemIcon onClick={ () => removeItem(item.id)}>Rimuovi</CartItemIcon>
     </CartItemItem>
